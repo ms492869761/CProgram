@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "com/util/Symbol.hpp"
+#include "com/util/TimeUtil.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << Symbol::DOUHAO << std::endl ;
+    std::cout << TimeUtil::getTime() << std::endl;
     return 0;
 }

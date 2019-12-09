@@ -10,5 +10,15 @@
 #define Symbol_hpp
 
 #include <stdio.h>
+#include <string>
+
+
+namespace Symbol {
+    
+    const char DOUHAO[]=",";
+    
+}
+
+
 
 #endif /* Symbol_hpp */

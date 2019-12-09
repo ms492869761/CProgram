@@ -10,5 +10,13 @@
 #define TimeUtil_hpp
 
 #include <stdio.h>
+#include <time.h>
+#include <string>
+using namespace std;
+
+namespace TimeUtil {
+    string getTime();
+
+}
 
 #endif /* TimeUtil_hpp */
